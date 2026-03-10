@@ -3,6 +3,11 @@
 
 SokolLightHouse is an autonomous emergency positioning system designed for personal and light aviation use. It integrates GNSS positioning with LoRa-based telemetry transmission.
 
+## Documentation
+
+- [**Assembly Instructions**](assembly_instructions.md) - Full hardware setup and wiring guide.
+- [**Legal Disclaimer (RU)**](legal/DISCLAIMER.ru.md) - Юридическая информация и отказ от ответственности.
+
 ## Project Structure
 
 - **/firmware**: High-priority C++ system service for Raspberry Pi 5.
@@ -43,7 +48,12 @@ cd os
 make iso
 ```
 
+## Hardware Pinout Diagram
+
+Below is the connection scheme for the Raspberry Pi 5, GNSS, and LoRa modules:
+
+![SokolLightHouse Pinout Diagram](pinout_diagram.png)
+
 ## Legal Disclaimer
 
-This software is a technical prototype for educational and research purposes. It is NOT a certified Emergency Locator Transmitter (ELT).
-
+This software is a technical prototype for educational and research purposes. It is NOT a certified Emergency Locator Transmitter (ELT). For full legal terms, please refer to the [Legal Disclaimer](legal/DISCLAIMER.ru.md).
