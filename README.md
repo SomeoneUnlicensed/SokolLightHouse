@@ -1,4 +1,5 @@
 # SokolLightHouse Project
+<img width="3794" height="1204" alt="Frame 46" src="https://github.com/user-attachments/assets/8468edb0-6804-46a2-85c2-db0c57502387" />
 
 SokolLightHouse is an autonomous emergency positioning system designed for personal and light aviation use. It integrates GNSS positioning with LoRa-based telemetry transmission.
 
@@ -45,3 +46,4 @@ make iso
 ## Legal Disclaimer
 
 This software is a technical prototype for educational and research purposes. It is NOT a certified Emergency Locator Transmitter (ELT).
+
